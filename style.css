@@ -72,6 +72,31 @@ nav ul li a {
     background: #0056b3;
 }
 
+@media (max-width: 768px) {
+
+    nav ul {
+        gap: 20px;
+        font-size: 22px;
+    }
+    .hero h2 {
+        font-size: 46px;
+        padding-bottom: 0;
+    }
+    .hero p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav ul {
+        display: none;
+    }
+    .hero h2 {
+        font-size: 26px;
+    }
+}
+
 /* body {
     border: 1px solid;
 }
